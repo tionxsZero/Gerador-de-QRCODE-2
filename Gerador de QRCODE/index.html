@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de QRCode</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Gerador de QR CODE</h1>
+
+    <form class="form-container" action="#">
+        <label for="URL QRCODE" >Insira sua URL: </label>
+        <input type="text" id="input-url" maxlength="40" placeholder="Insira seu texto ou sua URL">
+
+        <button type="submit" id="gerar-qrcode">GERAR QRCODE</button>
+
+        <label for="URL QRCODE" >Seu QRCODE: </label>
+        <div class="img-container" >
+            <img id="img-container" src="https://via.placeholder.com/500">
+        </div>
+
+        <button type="reset" id="limpar">Limpar</button>
+    </form>
+</body>
+<footer>Made By Francisco Neto </footer>
+
+<script src="./app.js"></script>
+</html>
